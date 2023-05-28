@@ -1,11 +1,10 @@
-console.log("I like pizza.");
-console.log("Hello World");
-
-alert("Warning")
-
+// console.log("I like pizza.");
+// console.log("Hello World");
+// alert("Warning")
 // this is a comment
 
-let username;
+
+let username = "empty";
 document.getElementById("myButton").onclick = function () {
 
     username = document.getElementById("myText").value;
