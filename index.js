@@ -3,7 +3,7 @@
 // alert("Warning")
 // this is a comment
 
-alert("Entering this site will turn you gay...");
+//alert("Entering this site will turn you gay...");
 
 let username = "empty";
 document.getElementById("myButton").onclick = function () {
