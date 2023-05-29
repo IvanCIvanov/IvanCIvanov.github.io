@@ -5,10 +5,10 @@
 
 //alert("Entering this site will turn you gay...");
 
-let username = "empty";
-document.getElementById("myButton").onclick = function () {
+//let username = "empty";
+//document.getElementById("myButton").onclick = function () {
 
-    username = document.getElementById("myText").value;
+ //   username = document.getElementById("myText").value;
 
-    console.log(username);
-}
+//    console.log(username);
+//}
