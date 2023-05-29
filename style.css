@@ -5,19 +5,50 @@
     color: blue;
 }
 
+#titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #titleLine {
-    display: block;
+    display: inline-block;
     text-align: center;
-    color: rgb(63, 63, 63);
+    color: rgb(120, 0, 0);
     font-size: 60px;
-    text-decoration: null;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+    padding-left: 15px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+}
+
+#hyperlinkedInfo {
+    color: rgb(83, 223, 255);
     font-family: fantasy;
-    border: rgb(0, 0, 0);
-    border-spacing: 0px;
-    border-top-style: solid;
-    border-radius: 0px;
+    font-size: 20px;
+}
+
+
+#textualInfo {
+    color: rgb(146, 146, 146);
+    font-family: fantasy;
+    font-size: 20px;
 }
 
 #frontpage {
-    background-color: rgb(170, 74, 68);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgb(79, 60, 206), rgb(0, 0, 66));
 }
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .image-container img {
+        max-width: 100%;
+    }
