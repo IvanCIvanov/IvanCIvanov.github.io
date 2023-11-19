@@ -66,8 +66,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1000px;
-    height: 1300px;
+    width: 80%;
+    height: 100%;
 }
 
 .image-container {
