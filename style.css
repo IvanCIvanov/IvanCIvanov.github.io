@@ -81,6 +81,12 @@
     align-items: center;
 }
 
-    .image-container img {
-        max-width: 100%;
-    }
+.image-container img {
+    max-width: 100%;
+}
+
+.post {
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
