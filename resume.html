@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IvanTheGreat</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #pdfContainer {
+            width: 80%; /* Adjust the width as needed */
+            height: 80vh; /* Adjust the height as needed */
+        }
+
+        /* Optional: Add more styles for a cleaner look */
+        body, html {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 
     <link rel="stylesheet" href="style.css">
 
 </head>
+
+
+
+
+<!--Body Start-->
 <body id="frontpage">
 
 
@@ -25,10 +50,12 @@
     <br>
     <a id="basicText" href="files\resume\IvanIvanovResume.pdf" target="_blank">Download Resume (PDF)</a>
     <hr />
-    <embed src="files\resume\IvanIvanovResume.pdf" type="application/pdf" width="1000" height="1300" display: flex; justify-content: center; align-items: center; />
+    <div id="pdfContainer">
+        <embed src="files\resume\IvanIvanovResume.pdf" type="application/pdf" width="1000" height="1300" display: flex; justify-content: center; align-items: center; />
+    </div>
 
     <hr>
-    
+
     <br />
     <a id="hyperlinkedInfo" href="index.html" target="_self">Back to Home Page</a>
     <br />
