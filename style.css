@@ -62,6 +62,13 @@
     color: floralwhite;
 }
 
+#pdfContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1300px;
+}
 
 .image-container {
     display: flex;
