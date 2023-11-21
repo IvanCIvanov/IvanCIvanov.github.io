@@ -30,6 +30,16 @@
     font-size: 20px;
 }
 
+#buttonCentered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: blueviolet;
+    color: rgb(0, 0, 66);
+    border-color: green;
+}
+
 #centeredHyperLink {
     display: flex;
     justify-content: center;

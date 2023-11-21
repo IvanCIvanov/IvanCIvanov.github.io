@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IvanTheGreat</title>
-
+    <link rel="siteList" href="siteList.java">
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="frontpage">
@@ -19,10 +19,35 @@
         </ul>
     </nav>
 
+    <script>
+        // Array of website links
+        var urlArray = [
+            "http://www.google.com",
+            "http://www.Youtube.com",
+            "http://www.imgur.com",
+            "http://www.reddit.com",
+            "http://www.wikipedia.org"
+        ];
+
+        // Define a function to handle the button click
+        function handleButtonClick() {
+            // Get a random index from the array
+            var randomIndex = Math.floor(Math.random() * urlArray.length);
+
+            // Get the random URL
+            var randomUrl = urlArray[randomIndex];
+
+            // Open the URL in a new tab
+            window.open(randomUrl, '_blank');
+        }
+    </script>
+
+
     <div id="titleContainer">
         <h1 id="titleLine">Test Page</h1>
     </div>
     <hr>
+
     <p id="basicText">
         Test Page
         <br> <br>
@@ -36,11 +61,19 @@
         <br>1. Resume Page Created (Downlod Link and Embeded Resume)
         <br>2. New Music Page (Previously called 'Test Page' which is this page)
         <br>3. Test Page now has a 'Most Recent Updates' list at the top (You're Reading it)
-        <br>4. New Navigation Bar!!! Implemented a Nav Bar across the website, and also created 
-        <br> &nbsp;&nbsp;&nbsp;    a 'back to top' feature at the bottom of each page!        
-        
-        <br>5. Work In Progress ;)
+        <br>4. New Navigation Bar!!! Implemented a Nav Bar across the website, and also created
+        <br> &nbsp;&nbsp;&nbsp; a 'back to top' feature at the bottom of each page!
+        <br>5. Random Website Generating Button! (Below)
+        <br>6. Work In Progress ;)
+
+
     </p>
+    <hr>
+    <div id="titleContainer">
+        <button id="buttonCentered" onclick="handleButtonClick()">Click me!</button>
+    </div>
+
+    <hr>
     <div class="blank-space">
         <h1 id="headerStyleThree" style="color: rgb(0, 255, 247)">Blank Text Box For Now</h1>
 
