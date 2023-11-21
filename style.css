@@ -30,6 +30,16 @@
     font-size: 20px;
 }
 
+#centeredHyperLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 223, 255);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 #basicText {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,11 +58,11 @@
 }
 
 #headerStyleThree {
-    display:flex; 
-    justify-content: center; 
-    text-decoration: underline; 
-    font-size: 25px; 
-    font-family:Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 136, 255);
 }
 
@@ -70,10 +80,10 @@
     height: 1300px;
 }
 
-#pdfContainer embed{
-    width: 100%;
-    height: 100%;
-}
+    #pdfContainer embed {
+        width: 100%;
+        height: 100%;
+    }
 
 .image-container {
     display: flex;
@@ -81,6 +91,46 @@
     align-items: center;
 }
 
-.image-container img {
-    max-width: 100%;
+    .image-container img {
+        max-width: 100%;
+    }
+
+.blank-space {
+    height: 3000px;
+    width: 100%;
+    border: 2px solid #ccc; /* Optional: Add a border */
+    box-sizing: border-box;
+    margin: 20px 0; /* Optional: Add margin for spacing */
+    padding: 20px; /* Optional: Add padding inside the container */
 }
+
+
+/* BODY EDITS */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Beginning of Navigation Bar Styling*/
+nav {
+    background-color: rgb(44, 20, 202); /* Set the background color */
+    color: rgb(0, 64, 255); /* Set the text color */
+    padding: 10px; /* Add padding to the navigation bar */
+}
+
+    nav ul {
+        list-style-type: none; /* Remove the default list styles */
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline; /* Display list items horizontally */
+        margin-right: 20px; /* Add space between list items */
+    }
+
+    nav a {
+        text-decoration: none; /* Remove underline from links */
+        color: #09bfed; /* Set the link text color */
+    }
+/* End of Nav Bar Styling*/
