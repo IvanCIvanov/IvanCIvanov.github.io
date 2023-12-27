@@ -128,12 +128,13 @@ iframe{
     width: 100%;
     max-width: 560px;
     height: 315px;
-    
+    display: block;
 }
 
 @media (max-width: 600px){
    iframe{
     max-width: 90%;
+    
     margin: 0 auto;
    }
     
