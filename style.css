@@ -127,15 +127,14 @@
 iframe{
     width: 100%;
     max-width: 560px;
-
+    height: 315px;
     
 }
 
 @media (max-width: 600px){
    iframe{
     max-width: 90%;
-    height: 0;
-    padding-bottom: 56.25%;
+   
    }
     
 }
