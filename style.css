@@ -101,6 +101,10 @@
     height: 100%;
 }
 
+
+
+
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -123,11 +127,15 @@
 iframe{
     width: 100%;
     max-width: 560px;
+
+    height: 100%;
+    max-height: 315px;
 }
 
 @media (max-width: 600px){
    iframe{
-    max-width: 100%;
+    max-width: 90%;
+    max-height: 90%;
    }
     
 }
