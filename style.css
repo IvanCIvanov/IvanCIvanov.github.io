@@ -134,7 +134,7 @@ iframe{
 @media (max-width: 600px){
    iframe{
     max-width: 90%;
-   
+    margin: 0 auto;
    }
     
 }
