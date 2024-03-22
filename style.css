@@ -38,6 +38,8 @@
     background-color: blueviolet;
     color:rgb(0, 0, 66);
     border-color: green;
+    height: 100px;
+    width: 100px;
 }
 
 #centeredHyperLink{
