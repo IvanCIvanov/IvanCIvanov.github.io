@@ -23,11 +23,24 @@
         </ul>
     </nav>
 
+    <script>
 
+        function momButtonClick() {
+
+            // Open the URL in a new tab
+            window.open(musicPage.html, '_blank');
+        }
+    </script>
 
     <!-- Title of the Page -->
     <div id="titleContainer">
         <h1 id="titleLine">Home Page</h1>
+    </div>
+    
+    <hr />
+
+    <div id="titleContainer">
+        <button id="buttonCentered" onclick="momButtonClick()" style="color: red">Click me!</button>
     </div>
 
     <!-- Heading Section -->
