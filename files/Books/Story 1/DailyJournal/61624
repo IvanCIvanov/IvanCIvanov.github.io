@@ -22,7 +22,7 @@
 
     <hr>
 
-    <h1 id="BookHomeText">June 6th, 2024</h1>
+    <h1 id="BookHomeText">TempTitle</h1>
     
 
 
@@ -31,10 +31,7 @@
     <div class="blank-space">
         <h1 id="basicText" style="text-align: left; color: rgb(0, 255, 247)">June 6th, 2024</h1>
         <p id="basicText">
-            This is the first Journal of this webpage.
-
-
-
+            This is the First Journal of this website.
         </p>
         
 
@@ -51,6 +48,7 @@
 
     <br />
     <a href="\files\Books\Story 1\DailyJournal.html">Back to Journals</a>
+
     <a href="\files\Books\Story 1\TitlePage.html">Back to Stories</a>
     <script src="index.js"></script>
 </body>
