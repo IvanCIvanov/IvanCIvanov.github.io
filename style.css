@@ -55,6 +55,10 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 136, 255);
 }
+#shortWidthReader{
+    align-content: center;
+    width:80%;
+}
 
 #LearningBottom {
     font-size: 25px;
