@@ -56,8 +56,9 @@
     color: rgb(0, 136, 255);
 }
 #shortWidthReader{
-    align-content: center;
+    
     width:80%;
+    align-self: center;
 }
 
 #LearningBottom {
