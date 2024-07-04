@@ -136,6 +136,8 @@ iframe.youtube-embed {
     max-width: 560px;
     height: 315px;
     display: block;
+    border-color: red;
+    border-width: 5px;
 }
 
 iframe.spotify-embed {
