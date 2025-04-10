@@ -1,14 +1,32 @@
-// console.log("I like pizza.");
-// console.log("Hello World");
-// alert("Warning")
-// this is a comment
+window.addEventListener('DOMContentLoaded', runScript);
 
-//alert("Entering this site will turn you gay...");
+async function runScript() {
+    // Create HyperLink Jump to Top (Appended at bottom)
+    const topJump = document.createElement('a');
+    topJump.id = "centeredHyperLink";
+    topJump.href = "index.html";
+    topJump.target = "_self";
+    topJump.innerText = "To the Top";
 
-//let username = "empty";
-//document.getElementById("myButton").onclick = function () {
+    // Find height of loaded DOM
+    const mainDiv = document.querySelector('main');
+    const height = mainDiv.getBoundingClientRect().height;
 
- //   username = document.getElementById("myText").value;
+    // var creation for body and p elements
+    const getBody = document.querySelector('body');
 
-//    console.log(username);
-//}
+
+    // loop appending P until the scroll height is acheived. 
+    let count = 1;
+    while (document.body.scrollHeight <= window.innerHeight) {
+        getBody.append(document.createElement('br'));
+
+    }
+
+    // finally, append Hyperlink TopJump
+    getBody.append(topJump);
+}
+
+
+
+
