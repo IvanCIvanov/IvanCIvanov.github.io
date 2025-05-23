@@ -30,17 +30,17 @@
     font-size: 20px;
 }
 
-#buttonCentered {
+#buttonCentered{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 5vh;
     background-color: blueviolet;
-    color: rgb(0, 0, 66);
+    color:rgb(0, 0, 66);
     border-color: green;
 }
 
-#centeredHyperLink {
+#centeredHyperLink{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,10 +56,17 @@
     color: rgb(0, 136, 255);
 }
 
+#LearningBottom{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 136, 255);
+}
+
 #fadedTextBox {
     color: rgb(146, 146, 146);
     font-family: Arial;
-    font-size: 20px;
+    font-size: 50px;
+    font-weight: bolder;
 }
 
 #frontpage {
@@ -68,11 +75,11 @@
 }
 
 #headerStyleThree {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    display:flex; 
+    justify-content: center; 
+    text-decoration: underline; 
+    font-size: 25px; 
+    font-family:Arial, Helvetica, sans-serif; 
     color: rgb(0, 136, 255);
 }
 
@@ -90,10 +97,14 @@
     height: 1300px;
 }
 
-    #pdfContainer embed {
-        width: 100%;
-        height: 100%;
-    }
+#pdfContainer embed{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 
 .image-container {
     display: flex;
@@ -101,46 +112,118 @@
     align-items: center;
 }
 
-    .image-container img {
-        max-width: 100%;
-    }
+.image-container img {
+    max-width: 100%;
+}
 
 .blank-space {
-    height: 3000px;
-    width: 100%;
+    height: 3000px; 
+    width: 100%;   
     border: 2px solid #ccc; /* Optional: Add a border */
     box-sizing: border-box;
     margin: 20px 0; /* Optional: Add margin for spacing */
     padding: 20px; /* Optional: Add padding inside the container */
 }
 
+iframe.youtube-embed{
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+}
+
+iframe.spotify-embed{
+    
+    max-width: 560px;
+    height: 352;
+    display: block;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.iframe-container {
+    width: 580px; /* Adjust the width as needed */
+}
+
+.hyperlinks {
+    width: 70%; /* Adjust the width as needed */
+}
+
+.hyperlinks a {
+    display: inline-block; /* Place each link on a new line */
+    margin-bottom: 10px; /* Add some space between links */
+    margin-left: 10px;
+    border: 5px solid purple;
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    border-radius: 50px;
+}
+
+@media (max-width: 600px){
+   iframe{
+    max-width: 90%;
+    
+    margin: 0 auto;
+   }
+    
+}
+
+
+
+
+/* Book settings */
+#BookHomeText{
+    color: rgb(0, 0, 0);
+    font-size:xx-large;
+    text-align: center;
+}
+
+
+
+
+
+
 
 /* BODY EDITS */
-body {
+body{
     margin: 0;
     padding: 0;
 }
 
 /* Beginning of Navigation Bar Styling*/
 nav {
-    background-color: rgb(44, 20, 202); /* Set the background color */
+    background-color: rgb(0, 0, 0); /* Set the background color */
     color: rgb(0, 64, 255); /* Set the text color */
+    
+   
     padding: 10px; /* Add padding to the navigation bar */
 }
 
-    nav ul {
-        list-style-type: none; /* Remove the default list styles */
-        margin: 0;
-        padding: 0;
-    }
+nav ul {
+    list-style-type: none; /* Remove the default list styles */
+    margin: 0;
+    padding: 0;
+}
 
-    nav li {
-        display: inline; /* Display list items horizontally */
-        margin-right: 20px; /* Add space between list items */
-    }
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between list items */
+}
 
-    nav a {
-        text-decoration: none; /* Remove underline from links */
-        color: #09bfed; /* Set the link text color */
-    }
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #09bfed; /* Set the link text color */
+}
+#navBook{
+    background-color: rgb(0, 0, 0); /* Set the background color */
+    color: rgb(0, 64, 255); /* Set the text color */
+    width: 45px;
+    font-weight: bold;
+    padding: 10px; /* Add padding to the navigation bar */
+}
 /* End of Nav Bar Styling*/

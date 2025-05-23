@@ -7,52 +7,64 @@
     <title>IvanTheGreat</title>
     <link rel="siteList" href="siteList.java">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="files/images/favicon.png" />
 </head>
 <body id="frontpage">
+
+    <div id="LearningTop"></div>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutMe.html">About Me</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="musicPage.html">Music</a></li>
+            <li><a href="musicPage.html">Music</a></li>            
             <li><a href="testpage.html">Test Page</a></li>
             <li><a href="learn.html">Learning Page</a></li>
         </ul>
     </nav>
 
-
-
+    
+    
 
     <div id="titleContainer">
         <h1 id="titleLine">Learning Page</h1>
     </div>
     <hr>
-
+    
+    
     <p id="basicText">
+        
         Learning Page
         <br> <br>
 
         Here I am Learning the next steps to my website.
-
-
+        <br>
+        <a href="#LearningBottom">Click here to jump to the bottom of this page using Internal Links </a>
+        
+        
     </p>
     <hr>
-
-
+    
+    
     <hr>
-
+   
     <div class="blank-space">
         <h1 id="headerStyleThree" style="color: rgb(0, 255, 247)">Blank Text Box For Now</h1>
         <p id="basicText">
             Inside Blank Text Box...
-        </p>
+
+            <div style="display: inline-block; margin: 10px; padding: 10px; border: 1px solid blue; width: 50px; height: 50px; text-align: center;">test</div>
+            <div style="display: inline-block; margin: 10px; padding: 10px; border: 1px solid blue; width: 50px; height: 50px; text-align: center;">test</div>            
+            <div style="display: inline-block; margin: 10px; padding: 10px; border: 1px solid blue; width: 50px; height: 50px; text-align: center;">test</div>
+            <div style="display: inline-block; margin: 10px; padding: 10px; border: 1px solid blue; width: 50px; height: 50px; text-align: center;">test</div>   
+         </p>
     </div>
 
 
 
-
-
-    <a id="centeredHyperLink" href="learn.html" target="_self">To the Top</a>
+    
+    <p id="LearningBottom">Bottom of the page</p>
+    <a id="centeredHyperLink" href="#LearningTop" target="_self" >To the Top</a>
     <br />
     <script src="index.js"></script>
 </body>
