@@ -4,7 +4,7 @@ async function runScript() {
     // Create HyperLink Jump to Top (Appended at bottom)
     const topJump = document.createElement('a');
     topJump.id = "centeredHyperLink";
-    topJump.href = "index.html";
+    topJump.href = "#top";
     topJump.target = "_self";
     topJump.innerText = "To the Top";
 

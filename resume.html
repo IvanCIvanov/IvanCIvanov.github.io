@@ -4,17 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IvanTheGreat</title>
-
+    <title>Resume - IvanTheGreat</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="images/png" href="files/images/favicon.png" />
-
+    <link rel="icon" type="image/png" href="files/images/favicon.png">
 </head>
-
-
-
-
-<!--Body Start-->
 <body id="frontpage">
     <nav>
         <ul>
@@ -22,34 +15,36 @@
             <li><a href="aboutMe.html">About Me</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="musicPage.html">Music</a></li>
-            <li><a href="testpage.html">Test Page</a></li>
-            <li><a href="learn.html">Learning Page</a></li>
+            <!-- <li><a href="testpage.html">Test Page</a></li>
+            <li><a href="learn.html">Learning Page</a></li> -->
         </ul>
     </nav>
 
-    <div id="titleContainer">
-        <h1 id="titleLine">Resume</h1>
-    </div>
-    <hr>
-    <p id="basicText">
-        Last Revised: October 2023
+    <main>
+        <section id="titleContainer">
+            <h1 id="titleLine">Resume</h1>
+        </section>
+        <hr>
 
-    </p>
+        <section id="basicText">
+            <p>Last Revised: October 2023</p>
+            <p>
+                <a href="files/resume/IvanIvanovResume.pdf" target="_blank" rel="noopener noreferrer">
+                    Download Resume (PDF)
+                </a>
+            </p>
+        </section>
+        <hr>
 
-    <br>
-    <a id="basicText" href="files\resume\IvanIvanovResume.pdf" target="_blank">Download Resume (PDF)</a>
-    <hr />
+        <section id="pdfContainer">
+            <embed src="files/resume/IvanIvanovResume.pdf" type="application/pdf" width="80%" height="400px" loading="lazy">
+        </section>
+        <hr>
+    </main>
 
-    <!--PDF VIEWPORT-->
-    <div id="pdfContainer">
-        <embed src="files\resume\IvanIvanovResume.pdf" type="application/pdf" />
-    </div>
-    <!--END OF PDF VIEWPORT-->
-    <hr>
 
-    <br />
-    <a id="centeredHyperLink" href="resume.html" target="_self">To the Top</a>
-    <br />
+    </footer>
+
     <script src="index.js"></script>
 </body>
 </html>

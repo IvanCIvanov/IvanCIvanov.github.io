@@ -4,55 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IvanTheGreat</title>
-
+    <title>Music - IvanTheGreat</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="images/png" href="files/images/favicon.png" />
-    <style>
-        #momSection {
-            font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: rgb(0, 136, 255);
-        }
-    </style>
+    <link rel="icon" type="image/png" href="files/images/favicon.png">
 </head>
-<body id="frontpage">
+<body>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutMe.html">About Me</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="musicPage.html">Music</a></li>            
-            <li><a href="testpage.html">Test Page</a></li>
-            <li><a href="learn.html">Learning Page</a></li>
+            <li><a href="musicPage.html">Music</a></li>
+            <!-- <li><a href="testpage.html">Test Page</a></li>
+            <li><a href="learn.html">Learning Page</a></li> -->
         </ul>
     </nav>
 
-    <div id="titleContainer">
-        <h1 id="titleLine">Music Page</h1>
-    </div>
-    <hr>
-    <p id="basicText">
-        Music Page
-        <br> <br>
-        <a style="color:  aqua" href="#momSection">Click here to go to my Moms Section</a>
-        <br /><br />
-        This is where I embed DJ playlists for any vibe. Most of it is for casual kickback events. 
+    <main>
+        <section id="titleContainer">
+            <h1 id="titleLine">Music</h1>
+        </section>
 
-    </p>
+        <section id="basicText">
+            <p>
+                Music has always been an important part of my life. Below are some of my favorite songs and artists that inspire me.
+            </p>
+        </section>
 
-
-    <!-- <Label>Enter your name: </Label>
-    <br />
-    <input type="text" id="myText"><br>
-    <button type="button" id="myButton">Submit</button><br> -->
-    <!-- <label id="countLabel">0</label><br>
-    <button id="decreaseBtn">Decrease</button>
-    <button id="resetBtn">Reset</button>
-    <button id="increaseBtn">Increase</button><br> -->
-
-    <br>
-    <div media="screen and (min-width = 95%)">
+        <section class="musicEmbeds">
+            <div media="screen and (min-width = 95%)">
         <p id="embedTitle">Early 2000s Pop Club Mix: New York House Party | Tinzo</p>
         <br>
         <iframe class="youtube-embed" src="https://www.youtube.com/embed/CIiDf2xCO4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -179,21 +159,14 @@
 
         <p id="embedTitle">No One Noticed - The Marias</p>
         <iframe class="youtube-embed" src="https://www.youtube.com/embed/Qn8F_u0vBNI?si=0SQCFwcvtOzDiPJz" frameborder="0" scrolling="no"></iframe>
-        <hr />
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" width="100%" height="380" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+    </main>
 
+    <footer>
 
+    </footer>
 
-
-
-
-    </div>
-
-
-
-
-
-    <a id="centeredHyperLink" href="musicPage.html" target="_self" >To the Top</a>
-    <br />
     <script src="index.js"></script>
 </body>
 </html>

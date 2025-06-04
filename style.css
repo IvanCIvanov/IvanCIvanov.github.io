@@ -1,229 +1,233 @@
-#countLabel {
-    display: block;
-    text-align: center;
-    font-size: 85px;
-    color: blue;
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#titleContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: rgb(49, 190, 255);
+  line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
-#titleLine {
-    display: inline-block;
-    text-align: center;
-    color: rgb(120, 0, 0);
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid red;
-    padding-left: 15px;
-    padding-right: 8px;
-    padding-bottom: 8px;
-    border-radius: 50px;
-}
-
-#hyperlinkedInfo {
-    color: rgb(83, 223, 255);
-    font-family: Arial;
-    font-size: 20px;
-}
-
-#buttonCentered{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5vh;
-    background-color: blueviolet;
-    color:rgb(0, 0, 66);
-    border-color: green;
-}
-
-#centeredHyperLink{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(83, 223, 255);
-    font-family: Arial;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-#basicText {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 136, 255);
-}
-
-#LearningBottom{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 136, 255);
-}
-
-#fadedTextBox {
-    color: rgb(146, 146, 146);
-    font-family: Arial;
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-#frontpage {
-    background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, rgb(79, 60, 206), rgb(0, 0, 66));
-}
-
-#headerStyleThree {
-    display:flex; 
-    justify-content: center; 
-    text-decoration: underline; 
-    font-size: 25px; 
-    font-family:Arial, Helvetica, sans-serif; 
-    color: rgb(0, 136, 255);
-}
-
-#embedTitle {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: floralwhite;
-}
-
-#pdfContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
-    height: 1300px;
-}
-
-#pdfContainer embed{
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-container img {
-    max-width: 100%;
-}
-
-.blank-space {
-    height: 3000px; 
-    width: 100%;   
-    border: 2px solid #ccc; /* Optional: Add a border */
-    box-sizing: border-box;
-    margin: 20px 0; /* Optional: Add margin for spacing */
-    padding: 20px; /* Optional: Add padding inside the container */
-}
-
-iframe.youtube-embed{
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
-    display: block;
-}
-
-iframe.spotify-embed{
-    
-    max-width: 560px;
-    height: 352;
-    display: block;
-}
-
-.content-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.iframe-container {
-    width: 580px; /* Adjust the width as needed */
-}
-
-.hyperlinks {
-    width: 70%; /* Adjust the width as needed */
-}
-
-.hyperlinks a {
-    display: inline-block; /* Place each link on a new line */
-    margin-bottom: 10px; /* Add some space between links */
-    margin-left: 10px;
-    border: 5px solid purple;
-    padding-left: 10px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    border-radius: 50px;
-}
-
-@media (max-width: 600px){
-   iframe{
-    max-width: 90%;
-    
-    margin: 0 auto;
-   }
-    
-}
-
-
-
-
-/* Book settings */
-#BookHomeText{
-    color: rgb(0, 0, 0);
-    font-size:xx-large;
-    text-align: center;
-}
-
-
-
-
-
-
-
-/* BODY EDITS */
-body{
-    margin: 0;
-    padding: 0;
-}
-
-/* Beginning of Navigation Bar Styling*/
+/* Navigation Bar */
 nav {
-    background-color: rgb(0, 0, 0); /* Set the background color */
-    color: rgb(0, 64, 255); /* Set the text color */
-    
-   
-    padding: 10px; /* Add padding to the navigation bar */
+  background-color: #00000ee4;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0; /* Add this */
+  left: 0; /* Optional for completeness */
+  z-index: 1000;
 }
 
 nav ul {
-    list-style-type: none; /* Remove the default list styles */
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
-nav li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Add space between list items */
+nav li{
+  padding: 0 2rem;
 }
 
 nav a {
-    text-decoration: none; /* Remove underline from links */
-    color: #09bfed; /* Set the link text color */
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
 }
-#navBook{
-    background-color: rgb(0, 0, 0); /* Set the background color */
-    color: rgb(0, 64, 255); /* Set the text color */
-    width: 45px;
-    font-weight: bold;
-    padding: 10px; /* Add padding to the navigation bar */
+
+nav a:hover {
+  color: #00aaff;
 }
-/* End of Nav Bar Styling*/
+
+/* Title Container */
+#titleContainer {
+  padding-top: 1rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#titleLine {
+  font-size: 2.5rem;
+  color: #0056b3;
+}
+
+/* General Text */
+#basicText, .section-text {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* Embeds */
+.youtube-embed,
+.spotify-embed {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: 400px;
+  margin: 1rem auto;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Containers */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.iframe-container {
+  width: 100%;
+  max-width: 720px;
+}
+
+.hyperlinks {
+  text-align: center;
+}
+
+#hyperlinkedInfo {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hyperlinkedInfo:hover {
+  text-decoration: underline;
+}
+
+/* Footer & Links */
+#centeredHyperLink {
+  display: block;
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: bold;
+  color: #555;
+}
+
+#centeredHyperLink:hover {
+  color: #000;
+}
+
+/* PDF Container */
+#pdfContainer {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+#pdfContainer embed {
+  width: 90%;
+  height: 800px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Special Section Styling */
+#momSection {
+  font-size: 1.5rem;
+  color: rgb(0, 136, 255);
+  font-weight: bold;
+  margin: 4rem 0 2rem;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #titleLine {
+    font-size: 2rem;
+  }
+
+  .youtube-embed,
+  .spotify-embed {
+    height: 300px;
+  }
+
+  #pdfContainer embed {
+    height: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .content-container {
+    padding: 0.5rem;
+  }
+
+  #basicText {
+    padding: 0 1rem;
+  }
+}
+
+
+/* Current Projects section on Index Page: */
+#current_projects_title{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: rgb(0, 255, 102);
+  font-size: 4rem;
+}
+
+#recent_projects_wrapper{
+  
+  border-color: red;
+  border-width: 5px;
+  padding: 3rem;
+  margin: 0 3rem;
+  background-color: rgba(0, 0, 82, 0.179);
+}
+
+#recproj{
+  padding: 1rem;
+  margin: 1rem 0;
+  justify-self: center;
+  
+  margin: 2rem 5rem;
+
+
+}
+#recproj>img{
+  padding-top: 1rem;
+  max-width: 500px;
+  max-height: 500px;
+}
+#recproj>p{
+  justify-self: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-bottom: white 5px solid;
+}
+
+.image-container{
+  display:flex;
+  justify-content: center;
+}
+
+
+#portaits{
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-bottom: white 5px solid;
+}
